@@ -1,0 +1,1152 @@
+﻿<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="Himalayacottages">
+    <meta name="keywords" content="HTML,CSS,JavaScript">
+    <meta name="author" content="EnvyTheme">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <title>Himalayacottages - Resorts</title>
+    <link rel="icon" href="assets/images/favicon.png" type="image/png" sizes="16x16">
+
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" type="text/css" media="all" />
+    <!-- animate css -->
+    <link rel="stylesheet" href="assets/css/animate.min.css" type="text/css" media="all" />
+    <!-- owl carousel css -->
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css" type="text/css" media="all" />
+    <link rel="stylesheet" href="assets/css/owl.theme.default.min.css" type="text/css" media="all" />
+    <!-- meanmenu css -->
+    <link rel="stylesheet" href="assets/css/meanmenu.min.css" type="text/css" media="all" />
+    <!-- jquery ui css -->
+    <link rel="stylesheet" href="assets/css/jquery-ui.min.css" type="text/css" media="all" />
+    <!-- selectize css -->
+    <link rel="stylesheet" href="assets/css/selectize.min.css" type="text/css" media="all" />
+    <!-- magnific popup css -->
+    <link rel="stylesheet" href="assets/css/magnific-popup.min.css" type="text/css" media="all" />
+    <!-- icofont css -->
+    <link rel='stylesheet' href='assets/css/icofont.min.css' type="text/css" media="all" />
+    <!-- flaticon css -->
+    <link rel='stylesheet' href='assets/css/flaticon.css' type="text/css" media="all" />
+    <!-- style css -->
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css" media="all" />
+    <!-- responsive css -->
+    <link rel="stylesheet" href="assets/css/responsive.css" type="text/css" media="all" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <style>
+        .partner ul {
+            font-size: 16px;
+            padding-left: 20px;
+        }
+
+        .social-list {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+
+        .social-list li {
+            display: flex;
+            align-items: center;
+            margin: 0;
+        }
+
+        .social-list a {
+            display: inline-block;
+        }
+
+        .social-list i {
+            font-size: 18px;
+            width: 24px;
+            height: 24px;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            line-height: 1;
+        }
+
+        /* Specifically for topbar as requested */
+        .topbar .social-list i {
+            font-size: 22px !important;
+            width: 28px !important;
+            height: 28px !important;
+        }
+
+        .topbar {
+            padding: 5px 0;
+        }
+
+        .topbar-item {
+            padding: 0;
+        }
+
+        .circle-section {
+            padding: 60px 0;
+        }
+
+        .circle-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 40px;
+            flex-wrap: wrap;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .circle-item {
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .circle-img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            overflow: hidden;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+            transition: transform 0.3s ease;
+            margin: 0 auto;
+        }
+
+        .circle-img img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .circle-item-lg .circle-img {
+            width: 300px;
+            height: 300px;
+        }
+
+        .circle-item-lg h4 {
+            font-size: 24px;
+            margin-top: 20px;
+        }
+
+        .circle-item:hover .circle-img {
+            transform: scale(1.08);
+        }
+
+        .circle-item h4 {
+            margin-top: 15px;
+            font-weight: 600;
+            text-align: center;
+        }
+
+        .about-title h2 {
+            text-align: center;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .tour-category-card {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin: 20px auto;
+            transition: 0.3s ease;
+        }
+
+        .tour-category-card i {
+            font-size: 40px;
+            margin-bottom: 10px;
+        }
+
+        .tour-category-card h3 {
+            font-size: 16px;
+            margin: 0;
+        }
+
+        .tour-category-card {
+            width: 180px;
+            height: 180px;
+            border-radius: 50%;
+            background: #ffffff;
+            /* full white circle */
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin: 0 auto;
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.08);
+            transition: 0.3s ease;
+        }
+
+        .tour-category-card {
+            width: 180px;
+            height: 180px;
+            border-radius: 50%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin: 0 auto;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+            transition: 0.3s ease;
+        }
+
+        .tour-category-card:hover {
+            transform: translateY(-8px);
+        }
+
+        .tour-category-card i {
+            font-size: 40px;
+            margin-bottom: 10px;
+        }
+
+        .tour-category-card h3 {
+            font-size: 16px;
+            margin: 0;
+        }
+
+        .circle-container {
+            display: flex;
+            justify-content: center;
+            /* center the whole group */
+            align-items: flex-start;
+            gap: 60px;
+            /* fixed equal spacing */
+            flex-wrap: wrap;
+            padding: 60px 0;
+            max-width: 1400px;
+            /* control total width */
+            margin: 0 auto;
+            /* center container */
+        }
+    </style>
+    <!-- Google Tag Manager -->
+    <script>(function (w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push({
+                'gtm.start':
+                    new Date().getTime(), event: 'gtm.js'
+            }); var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-TWBNTTM');</script>
+    <!-- End Google Tag Manager -->
+</head>
+
+<body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TWBNTTM" height="0" width="0"
+            style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+    <!-- preloader -->
+    <div class="preloader">
+        <div class="preloader-wrapper">
+            <div class="preloader-grid">
+                <div class="preloader-grid-item preloader-grid-item-1"></div>
+                <div class="preloader-grid-item preloader-grid-item-2"></div>
+                <div class="preloader-grid-item preloader-grid-item-3"></div>
+                <div class="preloader-grid-item preloader-grid-item-4"></div>
+                <div class="preloader-grid-item preloader-grid-item-5"></div>
+                <div class="preloader-grid-item preloader-grid-item-6"></div>
+                <div class="preloader-grid-item preloader-grid-item-7"></div>
+                <div class="preloader-grid-item preloader-grid-item-8"></div>
+                <div class="preloader-grid-item preloader-grid-item-9"></div>
+            </div>
+        </div>
+    </div>
+    <!-- .end preloader -->
+
+    <!-- Topbar -->
+    <div class="topbar">
+
+        <div class="container-fluid position-relative z-index-1">
+            <div class="row align-items-center justify-content-between">
+                <div class="topbar-item topbar-item-left">
+                    <ul class="social-list">
+                        <li>
+                            <a href="https://www.facebook.com/groups/162202170953181" target="_blank"><i
+                                    class="flaticon-facebook"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://wa.me/918686861195" target="_blank"><i class="fab fa-whatsapp"></i></a>
+
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/himalayan.hills_it.paradise/" target="_blank"><i
+                                    class="flaticon-instagram"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://twitter.com/Himalayacottage" target="_blank"><i
+                                    class="flaticon-twitter"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/company/comet-himalayan-paradise/" target="_blank"><i
+                                    class="flaticon-linkedin"></i></a>
+                        </li>
+
+                    </ul>
+                </div>
+                <div class="topbar-item justify-content-end">
+                    <ul class="topbar-action">
+                        <li>
+                            <i class="flaticon-mail"></i>
+                            <a href="mailto:himalayan.pradise@gmail.com">contact@thehimalayancamp.com</a>
+                        </li>
+                        <li>
+                            <i class="flaticon-telephone"></i>
+                            <a href="tel:+91 9949994989">+91 9949994989</a>
+                            <a href="tel:+91 8686861195">/+91 8686861195</a>
+                        </li>
+                        <li>
+                            <i class="flaticon-address"></i>
+                            Borampet, Hyderabad. | Pithoragarh, Uttarakhand, India.
+
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Topbar -->
+    <!-- Navbar -->
+    <div class="fixed-top">
+        <div class="navbar-area">
+            <div class="container">
+                <div class="mobile-nav">
+                    <a href="index.html" class="mobile-brand">
+                        <img src="assets/images/logo.png" alt="logo" class="logo default-logo">
+                        <img src="assets/images/logo-default-color.png" alt="logo" class="sticky-logo">
+                    </a>
+                    <div class="navbar-option">
+                        <div class="navbar-option-item">
+                            <ul class="navbar-option-list">
+                                <li class="d-md-none">
+                                    <!-- "mobile-option-dropdown" class is used for all options -->
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="main-nav">
+                <marquee width="100%" direction="left" style="color: #000000;font-size: 20px;">
+                    <span>When you are stressed, come to CHP in Dev Bhoomi.</span>
+
+                    <span style="margin-left:80px">Welcome to the land of Yoga and Meditation. </span>
+                    <span style="margin-left:80px"> Uttarakhand, the land of magestic beauty. </span>
+                    <span style="margin-left:80px">The place where lord Shiva resides in every stone. </span>
+                    <span style="margin-left:80px">The place where modernity and spirituality coexist.</span>
+                    <span style="margin-left:80px">The place which brings mind, body and spirit in harmony.</span>
+                    <span style="margin-left:80px"> A place where people are simple, innocent and hardworking.</span>
+                    <span style="margin-left:80px"> The place where you see the real heaven.</span>
+                    <span style="margin-left:80px"> The place where sky bows down in front of Himalayas.</span>
+                    <span style="margin-left:80px"> The place of piety and natural beauty.</span>
+                    <span style="margin-left:80px">The place where you can find peace in staying quiet and looking at
+                        the mighty Himalayas.</span>
+
+                </marquee>
+                <div class="container">
+
+                    <nav class="navbar navbar-expand-md navbar-light">
+
+                        <a class="navbar-brand" href="index.html">
+                            <img src="assets/images/logo.png" alt="logo" class="logo default-logo">
+                            <img src="assets/images/logo.png" alt="logo" class="sticky-logo">
+                        </a>
+                        <div class="collapse navbar-collapse mean-menu" id="navbarSupportedContent">
+                            <ul class="navbar-nav mx-auto">
+                                <li class="nav-item">
+                                    <a href="index.html" class="nav-link active">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link dropdown-toggle">Bookings</a>
+                                    <ul class="dropdown-menu">
+                                        <li class="nav-item">
+                                            <a href="book-cottage-for-homestay.html" class="nav-link">Book cottage for
+                                                homestay </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="buy-a-cottage.html" class="nav-link">Buy a cottage</a>
+                                        </li>
+
+                                        <li class="nav-item">
+                                            <a href="corporate-outing.html" class="nav-link">Group booking </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="fun-at-CHP.html" class="nav-link">Book for day outing </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="about-us.html" class="nav-link">About CHP</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="CHP-offers.html" class="nav-link">CHP Offers</a>
+                                </li>
+
+                                <li class="nav-item">
+                                    <a href="CHP-experience.html" class="nav-link">CHP Experience </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="CHP-operations.html" class="nav-link">CHP Operations </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="CHP-business-plans.html" class="nav-link">Business Cases </a>
+                                </li>
+
+
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link dropdown-toggle">Location</a>
+                                    <ul class="dropdown-menu">
+                                        <li class="nav-item">
+                                            <a href="location-specifications.html" class="nav-link">Loc specification
+                                            </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="nearby-tourist-spots.html" class="nav-link">Nearby Tourist
+                                                Spots</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="nearby-temples.html" class="nav-link">Nearby Temples</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="activities.html" class="nav-link">Things to do</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="how-to-reach.html" class="nav-link">How to Reach</a>
+                                        </li>
+
+                                    </ul>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="CHP-benefits.html" class="nav-link">CHP Benefits</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="gallery.html" class="nav-link">Gallery</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="contact.html" class="nav-link">Contact</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Navbar -->
+    <!-- Header -->
+
+    <header class="header-banner fixed-header-banner">
+
+
+        <!-- header-content -->
+        <div class="container-fluid">
+            <div class="header-content">
+                <h1 class="main-title">Comet Himalayan Paradise</h1>
+                <h2 class="sub-title">One Stop Destination for all Travel experiences</h2>
+            </div>
+        </div>
+        <div class="scroll-parallax" id="parallax">
+
+            <div class="parallax-layer parallax-layer-4 parallax" data-speed="20">
+                <!-- <img src="assets/images/homepage-1/Home-page.jpg" alt="header"> -->
+            </div>
+            <!--<div class="parallax-layer parallax-cover"></div>-->
+        </div>
+    </header>
+    <!-- Header -->
+
+    <!-- Holiday Planning -->
+    <div class="text-center">
+
+
+        <!-- Experience Section Redesign: 50/50 Split -->
+        <section class="experience-section-custom">
+            <div class="container-fluid p-0">
+                <div class="row g-0 align-items-stretch">
+                    <!-- Left Column: Content & Grid -->
+                    <div class="col-lg-6">
+                        <div class="experience-content-col">
+                            <div class="experience-header">
+                                <h2>CHP Travel Experiences</h2>
+                            </div>
+
+                            <div class="experience-grid">
+                                <!-- Circle 1 -->
+                                <div class="experience-circle-card">
+                                    <div class="experience-circle-img">
+                                        <img src="assets/images/CHP_circle_1.png" alt="CHP Ventures">
+                                    </div>
+                                    <h4>CHP Ventures</h4>
+                                </div>
+
+                                <!-- Circle 2 -->
+                                <div class="experience-circle-card">
+                                    <div class="experience-circle-img">
+                                        <img src="assets/images/CHP_circle_2.png" alt="CHP Holiday Camp">
+                                    </div>
+                                    <h4>CHP Holiday <br> Camp</h4>
+                                </div>
+
+                                <!-- Circle 3 -->
+                                <div class="experience-circle-card">
+                                    <div class="experience-circle-img">
+                                        <img src="assets/images/CHP_circle_3.png" alt="Yoga Camp">
+                                    </div>
+                                    <h4>Yoga Camp</h4>
+                                </div>
+
+                                <!-- Circle 4 -->
+                                <div class="experience-circle-card">
+                                    <div class="experience-circle-img">
+                                        <img src="assets/images/CHP_circle_7.png" alt="CHP Isht Dev Sthal">
+                                    </div>
+                                    <h4>CHP Isht <br> Dev Sthal</h4>
+                                </div>
+
+                                <!-- Circle 5 -->
+                                <div class="experience-circle-card">
+                                    <div class="experience-circle-img">
+                                        <img src="assets/images/CHP_circle_9.png" alt="CHP Gaushala">
+                                    </div>
+                                    <h4>CHP Gaushala</h4>
+                                </div>
+
+                                <!-- Circle 6 -->
+                                <div class="experience-circle-card">
+                                    <div class="experience-circle-img">
+                                        <img src="assets/images/CHP_circle_5.png" alt="Comet Services">
+                                    </div>
+                                    <h4>Comet Services</h4>
+                                </div>
+
+                                <!-- Circle 7 -->
+                                <div class="experience-circle-card">
+                                    <div class="experience-circle-img">
+                                        <img src="assets/images/CHP_circle_4.png" alt="CHP Organic farming">
+                                    </div>
+                                    <h4>CHP Organic <br> farming</h4>
+                                </div>
+
+                                <!-- Circle 8 -->
+                                <div class="experience-circle-card">
+                                    <div class="experience-circle-img">
+                                        <img src="assets/images/CHP_circle_8.png" alt="CHP eco-friendly business">
+                                    </div>
+                                    <h4>CHP eco-friendly <br> business</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Right Column: Full-Height Image -->
+                    <div class="col-lg-6 p-0" style="min-height:100%;">
+                        <div class="experience-image-placeholder">
+                            <!-- Full cover image -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Holiday Planning -->
+        <!-- Tour -->
+
+        <!-- Tour -->
+        <!-- Popular Package -->
+
+        <!-- Popular Package -->
+        <!-- Homestay Section Redesign: 50/50 Split -->
+        <section class="homestay-section-custom">
+            <div class="container-fluid p-0">
+                <div class="row g-0 align-items-stretch">
+                    <!-- Left Column: Full-Height Video Background -->
+                    <div class="col-lg-6 p-0" style="display: flex; flex-direction: column;">
+                        <div class="homestay-video-wrapper">
+                            <div class="homestay-video-bg">
+                                <div class="video-icon text-center">
+                                    <a href="https://www.youtube.com/watch?v=iZWMAdUqwYY" class="video-popup">
+                                        <i class="flaticon-play"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Right Column: Content -->
+                    <div class="col-lg-6">
+                        <div class="homestay-content-wrapper text-center">
+                            <div class="section-title about-title mb-5">
+                                <h2>CHP Homestay</h2>
+                            </div>
+
+                            <div class="row justify-content-center homestay-cards-row">
+                                <div class="col-sm-6 mb-4">
+                                    <div class="card-1">
+                                        <a href="single-bhk-cottages.html">
+                                            <div class="card-1-image">
+                                                <div class="card-1-overlay">
+                                                    <img src="assets/images/wood/WC_11.png" alt="holiday">
+                                                </div>
+                                            </div>
+                                        </a>
+                                        <div class="card-1-content">
+                                            <div class="card-1-info">
+                                                <h3>
+                                                    <a href="three-bhk-cottages.html">CHP COTTAGE'S</a>
+                                                </h3>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-sm-6 mb-4">
+                                    <div class="card-1">
+                                        <a href="traditional-pahadi-house.html">
+                                            <div class="card-1-image">
+                                                <div class="card-1-overlay">
+                                                    <img src="assets/images/wood/TH_01.png" alt="holiday">
+                                                </div>
+                                            </div>
+                                        </a>
+                                        <div class="card-1-content">
+                                            <div class="card-1-info">
+                                                <h3>
+                                                    <a href="traditional-pahadi-house.html">Traditional Pahadi House</a>
+                                                </h3>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="section-buttons mt-4 justify-content-center" style="display: flex;">
+                                <a href="buy-a-cottage.html" class="btn main-btn main-btn-arrow">
+                                    Buy A Cottage <i class="flaticon-right-arrow"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="popular-package-section pt-70 pb-80">
+            <div class="container">
+                <div class="section-title section-title-lg">
+
+                    <h2>CHP Ventures</h2>
+                </div>
+            </div>
+            <div class="container">
+                <div class="circle-container" style="justify-content: space-around;">
+                    <div class="circle-item circle-item-lg">
+                        <a href="book-cottage-for-homestay.html" style="text-decoration: none; color: inherit;">
+                            <div class="circle-img">
+                                <img src="assets/images/wood/WC_44.png" alt="Circle 1">
+                            </div>
+                            <h4>Circle 1</h4>
+                        </a>
+                    </div>
+
+                    <div class="circle-item circle-item-lg">
+                        <a href="corporate-outing.html" style="text-decoration: none; color: inherit;">
+                            <div class="circle-img">
+                                <img src="assets/images/hybrid/HC_22.png" alt="Circle 2">
+                            </div>
+                            <h4>Circle 2</h4>
+                        </a>
+                    </div>
+
+                    <div class="circle-item circle-item-lg">
+                        <a href="CHP-benefits.html" style="text-decoration: none; color: inherit;">
+                            <div class="circle-img">
+                                <img src="assets/images/hybrid/HC_44.png" alt="Circle 3">
+                            </div>
+                            <h4>Circle 3</h4>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Tour Video -->
+        <!-- Partner -->
+        <!-- Join Us Section: 50/50 Edge-to-Edge Redesign -->
+        <section class="partner-section join-us-section-custom">
+            <div class="container-fluid p-0">
+                <div class="row g-0 align-items-stretch">
+                    <!-- Left Column: Content -->
+                    <div class="col-lg-6">
+                        <div class="join-us-content-col">
+                            <h2>Join us and make a difference</h2>
+                            <h5>We invite companies and condominium associations to become our partner and benefit from
+                                the following advantages:</h5>
+                            <div class="partner">
+                                <ul>
+                                    <li>15% discount in CHP community</li>
+                                    <li>Fully assisted, discounted and optimized tours to all prime locations of
+                                        Uttarakhand.</li>
+                                    <li>15% discount in CHP guesthouses, to be launched soon in some prime locations of
+                                        Uttarakhand</li>
+                                    <li>Committed to helping explore various sustainable and environmentally friendly
+                                        business plans in the Himalayan region</li>
+                                </ul>
+                                <p style="color: #666; font-style: italic; margin-bottom: 30px;">
+                                    Contact us if you have any queries: <br>
+                                    <strong style="color: #d9534f;">himalayan.pradise@gmail.com</strong>
+                                </p>
+                                <div class="section-buttons">
+                                    <a href="https://forms.gle/wzk43ykgMBb4hbBU8" class="btn main-btn" target="_blank">
+                                        Sign up for partnership
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Right Column: Full-Height Image -->
+                    <div class="col-lg-6 join-us-image-col">
+                        <div class="join-us-image-wrapper">
+                            <img src="assets/images/advatage-cottage1.jpg" alt="Partnership Advantage">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Partner -->
+        <!-- Download -->
+        <!-- Offerings Section: 50/50 Edge-to-Edge Restructure -->
+        <section class="download-section bg-offwhite position-relative offerings-section-custom p-0"
+            id="downloadSection" style="margin-bottom: 50px;">
+            <div class="container-fluid p-0">
+                <div class="row g-0 align-items-stretch">
+                    <!-- Left Column: Full-Height Image -->
+                    <div class="col-lg-6 offerings-image-col">
+                        <div class="offerings-image-wrapper">
+                            <img src="assets/images/Munsiyari.jpeg" alt="CHP Landscape">
+                        </div>
+                    </div>
+
+                    <!-- Right Column: Perfectly Centered Content -->
+                    <div class="col-lg-6">
+                        <div class="offerings-content-wrapper text-center">
+                            <div class="offerings-section-title mb-5">
+                                <h2>CHP Offerings and Opportunities</h2>
+                            </div>
+
+                            <div class="offerings-circle-row">
+                                <!-- Circle 1 -->
+                                <div class="offerings-circle-card">
+                                    <a href="#" style="text-decoration: none;">
+                                        <div class="offerings-circle-img">
+                                            <img src="assets/images/wood/WC_44.png" alt="Business opportunities">
+                                        </div>
+                                        <h4>Business <br> Opportunities</h4>
+                                    </a>
+                                </div>
+
+                                <!-- Circle 2 -->
+                                <div class="offerings-circle-card">
+                                    <a href="#" style="text-decoration: none;">
+                                        <div class="offerings-circle-img">
+                                            <img src="assets/images/hybrid/HC_22.png" alt="Incredible discount offers">
+                                        </div>
+                                        <h4>Incredible <br> Discount Offers</h4>
+                                    </a>
+                                </div>
+
+                                <!-- Circle 3 -->
+                                <div class="offerings-circle-card">
+                                    <a href="#" style="text-decoration: none;">
+                                        <div class="offerings-circle-img">
+                                            <img src="assets/images/hybrid/HC_44.png" alt="Partnerships">
+                                        </div>
+                                        <h4>Partnership <br> Opportunities</h4>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="section-buttons mt-5 justify-content-center" style="display: flex;">
+                                <a href="CHP-benefits.html" class="btn main-btn">Explore Benefits</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Download -->
+        <!-- Testimonial -->
+        <section class="testimonial-section image-bg image-bg-1 pt-80">
+            <div class="container-fluid position-relative z-index-1">
+                <div class="section-title section-title-white">
+                    <small>Please share your experience with us. </small>
+                </div>
+                <div class="testimonial-carousel owl-carousel owl-theme">
+                    <div class="item">
+                        <div class="testimonial-card text-center">
+                            <div class="testimoial-quote">
+                                <i class="flaticon-left-quote"></i>
+                            </div>
+                            <p class="testimonial-feedback">Great stays for the family and friends</p>
+                            <div class="testimonial-client-info">
+                                <img src="assets/images/team/team.png" alt="client">
+                                <ul class="review-star">
+                                    <li class="full-star"><i class="flaticon-star"></i></li>
+                                    <li class="full-star"><i class="flaticon-star"></i></li>
+                                    <li class="full-star"><i class="flaticon-star"></i></li>
+                                    <li class="full-star"><i class="flaticon-star"></i></li>
+                                    <li class="full-star"><i class="flaticon-star"></i></li>
+                                </ul>
+                                <h3 class="testimonial-name">Rohit Prasanna</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="testimonial-card text-center">
+                            <div class="testimoial-quote">
+                                <i class="flaticon-left-quote"></i>
+                            </div>
+                            <p class="testimonial-feedback">Pleasant stay, nice view</p>
+                            <div class="testimonial-client-info">
+                                <img src="assets/images/team/team.png" alt="client">
+                                <ul class="review-star">
+                                    <li class="full-star"><i class="flaticon-star"></i></li>
+                                    <li class="full-star"><i class="flaticon-star"></i></li>
+                                    <li class="full-star"><i class="flaticon-star"></i></li>
+                                    <li class="full-star"><i class="flaticon-star"></i></li>
+                                    <li class="full-star"><i class="flaticon-star"></i></li>
+                                </ul>
+                                <h3 class="testimonial-name">Gopi </h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="testimonial-card text-center">
+                            <div class="testimoial-quote">
+                                <i class="flaticon-left-quote"></i>
+                            </div>
+                            <p class="testimonial-feedback">A wonderful experience in the midst of mountains at
+                                Himalayacottages</p>
+                            <div class="testimonial-client-info">
+                                <img src="assets/images/team/team.png" alt="client">
+                                <ul class="review-star">
+                                    <li class="full-star"><i class="flaticon-star"></i></li>
+                                    <li class="full-star"><i class="flaticon-star"></i></li>
+                                    <li class="full-star"><i class="flaticon-star"></i></li>
+                                    <li class="full-star"><i class="flaticon-star"></i></li>
+                                    <li class="full-star"><i class="flaticon-star"></i></li>
+                                </ul>
+                                <h3 class="testimonial-name">Siva</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="testimonial-card text-center">
+                            <div class="testimoial-quote">
+                                <i class="flaticon-left-quote"></i>
+                            </div>
+                            <p class="testimonial-feedback">Amazing Place to Stay When in Group</p>
+                            <div class="testimonial-client-info">
+                                <img src="assets/images/team/team.png" alt="client">
+                                <ul class="review-star">
+                                    <li class="full-star"><i class="flaticon-star"></i></li>
+                                    <li class="full-star"><i class="flaticon-star"></i></li>
+                                    <li class="full-star"><i class="flaticon-star"></i></li>
+                                    <li class="full-star"><i class="flaticon-star"></i></li>
+                                    <li class="full-star"><i class="flaticon-star"></i></li>
+                                </ul>
+                                <h3 class="testimonial-name">Vamsi</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Testimonial -->
+        <!-- Product -->
+        <section class="product-section pt-100 pb-100 position-relative">
+
+            <div class="container">
+                <div class="section-title">
+                    <h2>Gallery</h2>
+                </div>
+                <div class="row">
+                    <div class="col-sm-6 col-lg-3 pb-30 single-card-rotate">
+                        <div class="single-card">
+                            <div class="single-card-image">
+                                <a href="#">
+                                    <img src="assets/images/gallery/chp01.png" alt="product">
+                                </a>
+
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-3 pb-30 single-card-rotate">
+                        <div class="single-card">
+                            <div class="single-card-image">
+                                <a href="#">
+                                    <img src="assets/images/gallery/chp02.png" alt="product">
+                                </a>
+
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-3 pb-30 single-card-rotate">
+                        <div class="single-card">
+                            <div class="single-card-image">
+                                <a href="#">
+                                    <img src="assets/images/gallery/chp03.png" alt="product">
+                                </a>
+
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-3 pb-30 single-card-rotate">
+                        <div class="single-card">
+                            <div class="single-card-image">
+                                <a href="#">
+                                    <img src="assets/images/gallery/chp04.png" alt="product">
+                                </a>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-6 col-lg-3 pb-30 single-card-rotate">
+                        <div class="single-card">
+                            <div class="single-card-image">
+                                <a href="#">
+                                    <img src="assets/images/gallery/chp05.png" alt="product">
+                                </a>
+
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-3 pb-30 single-card-rotate">
+                        <div class="single-card">
+                            <div class="single-card-image">
+                                <a href="#">
+                                    <img src="assets/images/gallery/chp06.png" alt="product">
+                                </a>
+
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-3 pb-30 single-card-rotate">
+                        <div class="single-card">
+                            <div class="single-card-image">
+                                <a href="#">
+                                    <img src="assets/images/gallery/chp07.png" alt="product">
+                                </a>
+
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-3 pb-30 single-card-rotate">
+                        <div class="single-card">
+                            <div class="single-card-image">
+                                <a href="#">
+                                    <img src="assets/images/gallery/chp08.png" alt="product">
+                                </a>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="text-center">
+                    <a href="gallery.html" class="btn main-btn">View More<i class="flaticon-right-arrow"></i> </a>
+                </div>
+            </div>
+        </section>
+        <!-- Product -->
+
+
+        <!-- Footer -->
+        <footer class="footer footer-bg"
+            style="background-image: url('assets/images/footer-bglast.png') !important; background-repeat: no-repeat !important; background-size: cover !important; background-position: center center !important; width: 100% !important;">
+            <div class="footer-upper pb-70 position-relative">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-6 col-md-6 col-lg-4">
+                            <div class="footer-content-item">
+                                <div class="footer-logo">
+                                    <a href="index.html"><img src="assets/images/logo-black.png" alt="logo"></a>
+                                </div>
+                                <ul class="footer-details footer-address">
+                                    <li>
+                                        <i class="flaticon-mail"></i>
+                                        <a href="mailto:contact@thehimalayancamp.com">contact@thehimalayancamp.com</a>
+                                    </li>
+                                    <li>
+                                        <i class="flaticon-telephone"></i>
+                                        <a href="tel:+91 9949994989">+91 9949994989</a>
+                                    </li>
+                                    <li>
+                                        <i class="flaticon-address"></i>
+                                        Lake Ridge Homes, Hyderabad | Pithoragarh, Uttarakhand, India
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-6 col-lg-4">
+                            <div class="footer-content-list footer-content-item desk-pad-left-70">
+                                <div class="footer-content-title">
+                                    <h3>Quick Links</h3>
+                                </div>
+                                <ul class="footer-details footer-list">
+                                    <li>
+                                        <a href="about-us.html">About Us</a>
+                                    </li>
+                                    <li>
+                                        <a href="how-to-reach.html">How to Reach</a>
+                                    </li>
+                                    <li>
+                                        <a href="buy-a-cottage.html">Buy a Cottages</a>
+                                    </li>
+                                    <li>
+                                        <a href="faqs.html">FAQ's</a>
+                                    </li>
+                                    <li>
+                                        <a href="privacy-policy.html">Privacy Policy</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-6 col-lg-4">
+                            <div class="footer-content-list footer-content-item desk-pad-left-70">
+                                <div class="footer-content-title">
+                                    <h3>Important Links</h3>
+                                </div>
+                                <ul class="footer-details footer-list">
+                                    <li>
+                                        <a href="CHP-benefits.html">CHP Benefits</a>
+                                    </li>
+                                    <li>
+                                        <a href="packages.html">Popular Packages</a>
+                                    </li>
+                                    <li>
+                                        <a href="CHP-experience.html">CHP Experience</a>
+                                    </li>
+                                    <li>
+                                        <a href="location-specifications.html">Location</a>
+                                    </li>
+                                    <li>
+                                        <a href="contact.html">Contact Us</a>
+                                    </li>
+
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-lower">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col footer-lower-item">
+                            <div class="footer-copyright-text">
+                                <p>Copyright Â©2022 himalayacottages.com</p>
+                            </div>
+                        </div>
+                        <div class="col footer-lower-item footer-lower-right">
+                            Follow:
+                            <ul class="social-list">
+                                <li>
+                                    <a href="https://www.facebook.com/groups/162202170953181" target="_blank"><i
+                                            class="flaticon-facebook"></i></a>
+                                </li>
+                                <li>
+                                    <a href="https://wa.me/918686861195" target="_blank"><i
+                                            class="fab fa-whatsapp"></i></a>
+
+                                </li>
+                                <li>
+                                    <a href="https://www.instagram.com/himalayan.hills_it.paradise/" target="_blank"><i
+                                            class="flaticon-instagram"></i></a>
+                                </li>
+                                <li>
+                                    <a href="https://twitter.com/Himalayacottage" target="_blank"><i
+                                            class="flaticon-twitter"></i></a>
+                                </li>
+                                <li>
+                                    <a href="https://www.linkedin.com/company/comet-himalayan-paradise/"
+                                        target="_blank"><i class="flaticon-linkedin"></i></a>
+                                </li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- Footer -->
+
+        <!-- Scroll-top -->
+        <div class="scroll-top" id="scrolltop">
+            <div class="scroll-top-inner">
+                <i class="icofont-long-arrow-up"></i>
+            </div>
+        </div>
+        <!-- Scroll-top -->
+
+        <!-- essential js -->
+        <script data-cfasync="false"
+            src="../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+        <script src="assets/js/jquery-3.6.0.min.js"></script>
+        <script src="assets/js/bootstrap.bundle.min.js"></script>
+        <!-- jquery ui js -->
+        <script src="assets/js/jquery-ui.js"></script>
+        <!-- selectize js -->
+        <script src="assets/js/selectize.min.js"></script>
+        <!-- magnific popup js -->
+        <script src="assets/js/jquery.magnific-popup.min.js"></script>
+        <!-- owl carousel js -->
+        <script src="assets/js/owl.carousel.min.js"></script>
+        <!-- form ajazchimp js -->
+        <script src="assets/js/jquery.ajaxchimp.min.js"></script>
+        <!-- form validator js  -->
+        <script src="assets/js/form-validator.min.js"></script>
+        <!-- contact form js -->
+        <script src="assets/js/contact-form-script.js"></script>
+        <!-- meanmenu js -->
+        <script src="assets/js/jquery.meanmenu.min.js"></script>
+        <!-- main js -->
+        <script src="assets/js/script.js"></script>
+        <!--Start of Tawk.to Script-->
+        <script type="text/javascript">
+            var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
+            (function () {
+                var s1 = document.createElement("script"), s0 = document.getElementsByTagName("script")[0];
+                s1.async = true;
+                s1.src = 'https://embed.tawk.to/6305ae6254f06e12d8906379/1gb732chf';
+                s1.charset = 'UTF-8';
+                s1.setAttribute('crossorigin', '*');
+                s0.parentNode.insertBefore(s1, s0);
+            })();
+        </script>
+        <!--End of Tawk.to Script-->
+
+</body>
+
+
+</html>
